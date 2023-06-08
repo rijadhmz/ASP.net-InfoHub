@@ -1,12 +1,13 @@
 ## Info Hub for Volleyball Team - Web App Development
 
 ![Image Description](https://github.com/rijadhmz/ASP.net-InfoHub/blob/master/images/handball.png)
+
 This GitHub repository contains an ASP.NET C# school project developed for the "Razvoj Web Aplikacija" (Web App Development) subject. The project aims to create an information hub for a volleyball team, providing a centralized platform for team members to access news and updates about the club.
 
 To access the admin profile and explore the administrative features of this web project, you can use the following login credentials:
 
-- Username: `admin@example.com`
-- Password: `admin123`
+- Username: `ok7@gmail.com`
+- Password: `admin`
 
 Please note that these credentials are intended for testing and demonstration purposes only.
 ### Features
