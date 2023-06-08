@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/bs_css/bootstrap.min.css") %>" /> 
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/bs_js/bootstrap.min.js") %>"></script>
+	<link href="css/Style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="navbar navbar-expand-lg bg-primary text-white d-flex justify-content-between" id="navbar">
+            
+            <a class="fs-1 ms-5 text-decoration-none text-warning navbar-brand" href="home.aspx"><img src="images/handball.png" width="100" height="100" /> Odbojkaski Klub "7" Lukavac</a>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+            
+            </asp:ContentPlaceHolder>
+            
+        </div>
+    </div>
+    <div>
+    
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+
+            </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+</body>
+</html>
